@@ -1,18 +1,7 @@
 import csv
 
-# Abre os arquivos de pareamento e do banco de dados
-with open('pareamento_PNAD.csv', newline='', encoding='utf-8') as file, \
-     open('pnad_novo.csv', newline='', encoding='utf-8') as file_bd:
-    
-    pareamento = list(csv.reader(file))
-    map_bd = list(csv.reader(file_bd))  # Converte para lista para permitir reiterações
-
-    # Pula os cabeçalhos
-    pareamento = pareamento[1:]
-    map_bd = map_bd[1:]
-
+def iterarPareamento(pareamento, map_bd):
     # Itera sobre o arquivo de pareamento
-    
     i = 0
     while i < len(pareamento):
         row = pareamento[i]
@@ -38,3 +27,23 @@ with open('pareamento_PNAD.csv', newline='', encoding='utf-8') as file, \
             print(f"END AS {title_bd}_format" + ("," if i < len(pareamento) else ""))
         else:
             i += 1
+
+
+
+# Abre os arquivos de pareamento e do banco de dados
+with open('pareamento_PNAD.csv', newline='', encoding='utf-8') as file, \
+     open('pnad_novo.csv', newline='', encoding='utf-8') as file_bd, \
+     open('pnad_transformadas.csv', newline='', encoding='utf-8') as file_trans:
+    
+    pareamento = list(csv.reader(file))
+    map_bd = list(csv.reader(file_bd))  # Converte para lista para permitir reiterações
+    pareamento_trans = list(csv.reader(file_trans))
+
+    # Pula os cabeçalhos
+    pareamento = pareamento[5:]
+    map_bd = map_bd[1:]
+    pareamento_trans = pareamento_trans[1:]
+
+    iterarPareamento(pareamento, map_bd)
+    print(',')
+    iterarPareamento(pareamento_trans, map_bd)

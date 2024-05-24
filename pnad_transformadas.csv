@@ -1,0 +1,39 @@
+Var. LDE,,Tipo,Descricao 2016-2019,Tipo,Descricao 2019-2023
+PND2T030T1,0,1,Presencial,1,Presencial
+,1,2,À distância,2,À distância
+,2,3,Não informado,3,Não informado
+,3,99,Não frequenta instituição de ensino,99,Não frequenta instituição de ensino
+PND2T031T1,4,1,Matutino,1,Matutino
+,5,2,Vespertino,2,Vespertino
+,6,3,Noturno,3,Noturno
+,7,4,Integral – Matutino e Vespertino,4,Integral – Matutino e Vespertino
+,8,5,Outros,5,Outros
+,9,6,Não se aplica – Pós graduação presencial,6,Não se aplica – Pós graduação presencial
+,10,7,EaD ou semipresencial,7,EaD ou semipresencial
+,11,99,Não frequenta instituição de ensino,99,Não frequenta instituição de ensino
+PND2T017T2,12,1,0 a 3 anos,1,0 a 3 anos
+,13,2,4 a 5 anos,2,4 a 5 anos
+,14,3,6 a 10 anos,3,6 a 10 anos
+,15,4,11 a 14 anos,4,11 a 14 anos
+,16,5,15 a 17 anos,5,15 a 17 anos
+,17,6,18 a 24 anos,6,18 a 24 anos
+,18,7,25 a 29 anos,7,25 a 29 anos
+,19,8,30 a 40 anos,8,30 a 40 anos
+,20,9,41 a 50 anos,9,41 a 50 anos
+,21,10,51 a 64 anos,10,51 a 64 anos
+,22,11,Mais que 64 anos,11,Mais que 64 anos
+PND2T023T1,23,1,Creche,1,Creche
+,24,2,Pré-escola,2,Pré-escola
+,25,3,Alfabetização de jovens e adultos,3,Alfabetização de jovens e adultos
+,26,4,Ensino Fundamental – Anos iniciais,4,Ensino Fundamental – Anos iniciais
+,27,5,Ensino Fundamental – Anos finais,5,Ensino Fundamental – Anos finais
+,28,6,EJA – Ensino Fundamental,6,EJA – Ensino Fundamental
+,29,7,Ensino Médio,7,Ensino Médio
+,30,8,Educação Profissional – técnica integrada,8,Educação Profissional – técnica integrada
+,31,9,Educação Profissional – técnica concomitante e subsequente,9,Educação Profissional – técnica concomitante e subsequente
+,32,11,EJA – Ensino Médio,11,EJA – Ensino Médio
+,33,12,Superior,12,Superior
+,34,13,Especialização,13,Especialização
+,35,14,Mestrado,14,Mestrado
+,36,15,Doutorado,15,Doutorado
+,37,99,Não frequenta instituição de ensino,99,Não frequenta instituição de ensino
