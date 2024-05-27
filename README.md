@@ -39,13 +39,12 @@ A apresentação dos dados de um dataset foi um dos problemas reencontrados na e
 
 Nesse caso, será necessário fazer um CASE WHEN para cada tipo encontrado, um trabalho extensivo e desnecessário. Por isso, foi feito o script acima, que utiliza a planilha de pareamento.
 
-[!NOTE]
- OBS.: o arquivo "pnad_novo.csv" é um arquivo proveniente do hotmapper (em mapping_protocols). Não é estritamente necessário, porém o utilizamos para o nomeamento das colunas transformadas. Como no exemplo acima:
-
-```
-END AS cod_cap_format
-```
-Onde cod_cap é o nome da variável COD_CAPITAL no banco.
+>  OBS.: o arquivo "pnad_novo.csv" é um arquivo proveniente do hotmapper (em mapping_protocols). Não é estritamente necessário, porém o utilizamos para o nomeamento das colunas transformadas. Como no exemplo acima:
+>
+>```
+>END AS cod_cap_format
+>```
+>Onde cod_cap é o nome da variável COD_CAPITAL no banco.
 
 ## Mas e as variáveis transformadas?
 Para as variáveis transformadas, é um pouco mais complicado. Em um primeiro momento, é necessário saber se essas variáveis já foram computadas no banco, pois seus valores provém de outros CASE WHEN's, realizados pelo time de banco de dados.
